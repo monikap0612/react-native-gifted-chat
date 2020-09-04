@@ -159,6 +159,8 @@ declare class GiftedChat<TMessage extends IMessage = IMessage> extends React.Com
         extraData: null;
         minComposerHeight: number;
         maxComposerHeight: number;
+        is_landscape: string;
+        is_pad: string;
     };
     static propTypes: {
         messages: PropTypes.Requireable<(object | null)[]>;
